@@ -1,4 +1,5 @@
 import * as React from 'react';
+import '@axa-ch/button'
 
 interface Props {
     name:
@@ -13,6 +14,7 @@ class App extends React.Component<Props> {
                 <h1>
                     Hello {name}
                 </h1>
+                <axa-button variant={'red'} size={'large'}>Hello Button</axa-button>
             </>
         );
     }

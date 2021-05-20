@@ -2,6 +2,31 @@
 # yarn lockfile v1
 
 
+"@axa-ch/button@^6.0.18":
+  version "6.0.18"
+  resolved "https://registry.yarnpkg.com/@axa-ch/button/-/button-6.0.18.tgz#29d7ec27ddbdf75044c1553cd21c5b396b9e2089"
+  integrity sha512-qbUUH/awGPebD4yYuDR9WP2JKOPNTSCE85Ackuh6RHuunn9d074aXdBJSz5IRJdcCWoo8RZpUISmIBGb8ILxZg==
+  dependencies:
+    "@axa-ch/icon" "6.0.1"
+    "@skatejs/val" "^0.4.0"
+    lit-element "^2.2.0"
+    lit-html "^1.1.0"
+
+"@axa-ch/icon@6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@axa-ch/icon/-/icon-6.0.1.tgz#c60e3e1993e0239f25f880dcfd3dc8adb637048f"
+  integrity sha512-974VT8ZWJzJTfUJ7DFhlKylOnxRxLqjALyDNXJZbSZQk+K06TpFjT8ZOg9+VnNm6FQ38VDNgL3Xfmz0w89BgiA==
+  dependencies:
+    "@axa-ch/materials" "14.2.0"
+    "@skatejs/val" "^0.4.0"
+    lit-element "^2.2.0"
+    lit-html "^1.1.0"
+
+"@axa-ch/materials@14.2.0":
+  version "14.2.0"
+  resolved "https://registry.yarnpkg.com/@axa-ch/materials/-/materials-14.2.0.tgz#4b48844a7a1cb02dd24338225b79d64d52ffdd2b"
+  integrity sha512-nKGzjRQNT4VzKvhvWFQSDTAyRln8fC8iFRHqhKjILBZc+CBCBc/OZ+uk2agH6DFbyY6PQSGUrzl/JObvTiwoMQ==
+
 "@babel/code-frame@^7.0.0":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.13.tgz#dcfc826beef65e75c50e21d3837d7d95798dd658"
@@ -96,6 +121,11 @@
     infer-owner "^1.0.4"
     node-gyp "^7.1.0"
     read-package-json-fast "^2.0.1"
+
+"@skatejs/val@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@skatejs/val/-/val-0.4.0.tgz#fc28fe75d6559625ccb79ae93c9ffcad8cc08a94"
+  integrity sha512-zvZ/tUKkbGV5/wJE6mAN6nQ+OK7DwzGpgi+OMOxc6WxMkpwn6HfsHeArvTGhrS20wN0Df07oblIq3d0fpqICUA==
 
 "@snowpack/plugin-build-script@^2.1.0":
   version "2.1.0"
@@ -1132,6 +1162,18 @@ lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
+
+lit-element@^2.2.0:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-2.5.1.tgz#3fa74b121a6cd22902409ae3859b7847d01aa6b6"
+  integrity sha512-ogu7PiJTA33bEK0xGu1dmaX5vhcRjBXCFexPja0e7P7jqLhTpNKYRPmE+GmiCaRVAbiQKGkUgkh/i6+bh++dPQ==
+  dependencies:
+    lit-html "^1.1.1"
+
+lit-html@^1.1.0, lit-html@^1.1.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.4.1.tgz#0c6f3ee4ad4eb610a49831787f0478ad8e9ae5e0"
+  integrity sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==
 
 lodash.difference@^4.5.0:
   version "4.5.0"
